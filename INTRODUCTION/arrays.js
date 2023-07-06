@@ -9,6 +9,12 @@ arr.shift();
 console.log();
 arr.unshift("Hiii");
 var arr2 = arr.concat(arr1);
+console.log("concat - ", arr2);
 
-console.log(arr2);
+// [ 'Hiii', 4, '5', 1, 2, 3 ]
+var result = arr2.slice(0, 2);
+console.log("arr2 -", arr2);
+console.log("Slice - ", spResult)
+
+Array.prototype.sum = function 
 
